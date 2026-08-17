@@ -35,7 +35,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=RainNenya&theme=onedaRK&no-frame=true&row=1&column=7" width="100%" alt="GitHub trophies" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RainNenya&theme=tokyonight" width="100%" alt="Profile details" />
 </div>
 
 ## 🐍 Snake Animation
