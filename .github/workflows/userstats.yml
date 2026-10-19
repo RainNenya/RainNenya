@@ -1,0 +1,28 @@
+name: Generate User Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 每天 UTC 0 点更新
+  workflow_dispatch:       # 支持手动 Run workflow
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate the user stats image
+        uses: cicirello/user-statistician@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          # 颜色顺序：背景 → 边框 → 图标 → 标题 → 文本（匹配主页紫青主题）
+          colors: '#1f1130 #7C3AED #06B6D4 #A78BFA #ffffff'
+          image-file: images/userstats.svg
+          animated-language-chart: true

@@ -48,10 +48,10 @@
 </picture>
 </div>
 
-## 📈 Activity Graph
+## 📈 Contribution Summary
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RainNenya&theme=tokyonight&area=true&hide_border=true" width="100%" />
+  <img src="images/userstats.svg" width="100%" alt="My GitHub contribution summary" />
 </div>
 
 ## 🌟 Profile Details + 3D Contribution Graph
