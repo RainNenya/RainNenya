@@ -34,10 +34,6 @@
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=RainNenya&theme=tokyonight" width="32%" />
 </div>
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RainNenya&theme=tokyonight" width="100%" alt="Profile details" />
-</div>
-
 ## 🐍 Snake Animation
 
 <div align="center">
